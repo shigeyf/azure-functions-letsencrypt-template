@@ -1,6 +1,6 @@
 # Securing Azure Functions with Let's Encrypt issued SSL certificates for your custom domain
 
-## Background
+## What is this?
 
 This is a Azure Function template for your custom SSL domain Azure Functions wtih Let's Encrypt SSL certificate.
 This Azure Functions template should used with [Let's Encrypt Site Extension](https://github.com/sjkp/letsencrypt-siteextension) to allow Let's Encrypt Site Extension support in Azure Functions.
