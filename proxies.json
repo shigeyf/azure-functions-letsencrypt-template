@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+      "AcmeChallenge": {
+          "matchCondition": {
+              "route": "/.well-known/acme-challenge/{file}",
+              "methods": [
+                  "GET"
+              ]
+          },
+          "backendUri": "https://%WEBSITE_SITE_NAME%.azurewebsites.net/api/GetAcmeChallenge?file=/.well-known/acme-challenge/{file}"
+      }
+  }
+}
